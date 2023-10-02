@@ -7,7 +7,7 @@ import "./App.css";
 
 function App() {
   const [panels, setPanels] = useState([]);
-  console.log("panels", panels);
+
   return (
     <Context.Provider
       value={{
